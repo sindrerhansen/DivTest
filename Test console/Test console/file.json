@@ -1,0 +1,133 @@
+﻿{
+  "WellMaps": [
+    {
+      "Map": "mainwell",
+      "Mappings": [
+        {
+          "Tag": "AutoGearShiftTurns",
+          "Address": "TT-MW-AutoGearShiftTurns"
+        },
+        {
+          "Tag": "BackupPressure",
+          "Address": "TT-MW-BackupPressure"
+        },
+        {
+          "Tag": "DumpValveThreshold",
+          "Address": "TT-MW-DumpValveThreshold"
+        },
+        {
+          "Tag": "MaxSpinInTorque",
+          "Address": "TT-MW-MaxSpinInTorque"
+        },
+        {
+          "Tag": "MaxTurn",
+          "Address": "TT-MW-MaxTurn"
+        },
+        {
+          "Tag": "MinimumShoulderTurns",
+          "Address": "TT-MW-MinimumShoulderTurns"
+        },
+        {
+          "Tag": "SetReadyAcknowledge",
+          "Address": "TT-MW-SetReadyAcknowledge"
+        },
+        {
+          "Tag": "TestValve",
+          "Address": "TT-MW-TestValve"
+        },
+        {
+          "Tag": "TorqueSetpoint",
+          "Address": "TT-MW-TorqueSetpoint"
+        }
+
+
+      ]
+    },
+    {
+      "Map": "auxwell",
+      "Mappings": [
+        {
+          "Tag": "AutoGearShiftTurns",
+          "Address": "TT-AW-AutoGearShiftTurns"
+        },
+        {
+          "Tag": "BackupPressure",
+          "Address": "TT-AW-BackupPressure"
+        },
+        {
+          "Tag": "DumpValveThreshold",
+          "Address": "TT-AW-DumpValveThreshold"
+        },
+        {
+          "Tag": "MaxSpinInTorque",
+          "Address": "TT-AW-MaxSpinInTorque"
+        },
+        {
+          "Tag": "MaxTurn",
+          "Address": "TT-AW-MaxTurn"
+        },
+        {
+          "Tag": "MinimumShoulderTurns",
+          "Address": "TT-AW-MinimumShoulderTurns"
+        },
+        {
+          "Tag": "SetReadyAcknowledge",
+          "Address": "TT-AW-SetReadyAcknowledge"
+        },
+        {
+          "Tag": "TestValve",
+          "Address": "TT-AW-TestValve"
+        },
+        {
+          "Tag": "TorqueSetpoint",
+          "Address": "TT-AW-TorqueSetpoint"
+        }
+
+
+      ]
+    },
+    {
+      "Map": "standbuilding",
+      "Mappings": [
+        {
+          "Tag": "AutoGearShiftTurns",
+          "Address": "TT-SB-AutoGearShiftTurns"
+        },
+        {
+          "Tag": "BackupPressure",
+          "Address": "TT-SB-BackupPressure"
+        },
+        {
+          "Tag": "DumpValveThreshold",
+          "Address": "TT-SB-DumpValveThreshold"
+        },
+        {
+          "Tag": "MaxSpinInTorque",
+          "Address": "TT-SB-MaxSpinInTorque"
+        },
+        {
+          "Tag": "MaxTurn",
+          "Address": "TT-SB-MaxTurn"
+        },
+        {
+          "Tag": "MinimumShoulderTurns",
+          "Address": "TT-SB-MinimumShoulderTurns"
+        },
+        {
+          "Tag": "SetReadyAcknowledge",
+          "Address": "TT-SB-SetReadyAcknowledge"
+        },
+        {
+          "Tag": "TestValve",
+          "Address": "TT-SB-TestValve"
+        },
+        {
+          "Tag": "TorqueSetpoint",
+          "Address": "TT-SB-TorqueSetpoint"
+        }
+      ]
+    }
+
+  ]
+
+}
