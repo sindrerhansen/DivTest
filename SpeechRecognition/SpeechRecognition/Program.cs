@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Speech.Recognition;
 using System.Speech.Synthesis;
+using System.Globalization;
 
 namespace SpeechRecognition
 {
@@ -13,7 +14,9 @@ namespace SpeechRecognition
     {
         private static bool run = false;
         private static SpeechRecognitionEngine sr = new SpeechRecognitionEngine();
+        //private static SpeechRecognitionEngine sr = new SpeechRecognitionEngine(new CultureInfo("nb-NO"));
         private static SpeechSynthesizer synth = new SpeechSynthesizer();
+        
         static void Main(string[] args)
         {
             intiSpeech();
@@ -24,6 +27,8 @@ namespace SpeechRecognition
 
         private static void initSpeechSynt()
         {
+            var voises = synth.GetInstalledVoices();
+            // Console.WriteLine(voises.ToString());
             synth.SetOutputToDefaultAudioDevice();
             synth.Speak("Speech Synthesizer enabled");
         }
@@ -31,7 +36,7 @@ namespace SpeechRecognition
         private static void intiSpeech()
         {
             Choices colors = new Choices();
-            colors.Add(new string[] { "Exit program", "Start", "Stop" });
+            colors.Add(new string[] { "Exit program", "Start", "Stop", "Heis" });
 
             GrammarBuilder gb = new GrammarBuilder();
             gb.Append(colors);
@@ -46,7 +51,7 @@ namespace SpeechRecognition
         private static void sr_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
             
-            Console.WriteLine("You said to me: " + e.Result.Text);
+            Console.WriteLine("Du sa : " + e.Result.Text);
             synth.Speak(e.Result.Text);
             switch (e.Result.Text)
             {
